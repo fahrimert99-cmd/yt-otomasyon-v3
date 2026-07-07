@@ -1,0 +1,37 @@
+{
+  "ses": "erkek",
+  "gizlilik": "public",
+  "kategori": "27",
+  "cocuk_icerigi": false,
+
+  "modlar": {
+    "kisa": {
+      "format": "dikey",
+      "hedef_kelime": 180,
+      "hedef_sure_sn": 55,
+      "aciklama": "YouTube Shorts (9:16, ~50 sn)"
+    },
+    "uzun": {
+      "format": "yatay",
+      "hedef_kelime": 1200,
+      "hedef_sure_sn": 480,
+      "aciklama": "Uzun form video (16:9, ~8 dk)"
+    }
+  },
+  "varsayilan_mod": "kisa",
+
+  "gorsel_kaynak": "auto",
+  "muzik_ses": 0.13,
+  "pollinations_seed": 42,
+
+  "gemini": {
+    "model": "gemini-2.5-flash",
+    "nis_karisimi": [
+      "Bilim ve Uzay Gizemleri",
+      "Psikoloji ve Davranış Bilimleri",
+      "Tarih Gizemleri ve Antik Uygarlıklar",
+      "İlginç Bilgi Kırıntıları",
+      "Motivasyon ve Kişisel Gelişim"
+    ]
+  }
+}
